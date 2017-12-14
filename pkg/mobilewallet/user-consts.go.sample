@@ -1,0 +1,19 @@
+// copy this file, rename to "user-consts.go" and modify the appropriate constants
+
+package mobilewallet
+
+// open the dcrd/cert file and copy its contents here
+const CACert = `
+-----BEGIN CERTIFICATE-----
+MII...
+-----END CERTIFICATE-----
+`
+
+const (
+	rpcHost = "0.0.0.0:19109"
+	rpcUser = "the-testnet-user-configured-in-dcrd.conf"
+	rpcPass = "the-testnet-password-configured-in-dcrd.conf"
+	passphrase = "insecure-passphrase-for-the-wallet-that-you-should-never-use-anywhere-else"
+	destAddr = "TsWjioPrP8E1TuTMmTrVMM2BA4iPrjQXBpR" // addr of testnet faucet, change to whatever
+)
+

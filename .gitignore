@@ -1,0 +1,6 @@
+vendor
+pkg/mobilewallet/user-consts.go
+android/app/libs/
+android/build
+android/app/build
+.gradle
